@@ -2,12 +2,12 @@
 
 Ett enkelt och tydligt Node.js API byggt med Express för att hantera en bilsamling. Projektet visar grundläggande principer för RESTful routing och felhantering.
 --------------------------------------------------------------------------------------
- 🚀 ##Funktioner
+ ## 🚀 Funktioner
 * Hämta alla bilar:** Ger en komplett lista över bilar i JSON-format.
 * Hämta specifik bil:** Sök via ID med inbyggd felhantering för 404.
 * REST-standard:** Använder korrekta HTTP-metoder och statuskoder.
 ------------------------------------------------------------------------------------
- 🛠 ##Installation
+ ## 🛠 Installation
 
 1. Klona repot:
    ```bash
@@ -22,7 +22,7 @@ Bash
 *npm run dev
 
 ------------------------------------------------------------------------------------
-📍 ##API Endpoints
+##📍API Endpoints
 
 | Metod | Endpoint            | Beskrivning                     |
 |-------|----------------------|---------------------------------|
@@ -32,9 +32,9 @@ Bash
 
 
 -----------------------------------------------------------------------------------
-🧪 ##Exempelanrop
+## 🧪 Exempelanrop
 
-###Hämta bil med ID 1
+### Hämta bil med ID 1
 
 GET http://localhost:3000/api/din-resurs/1Respons (200 OK):JSON{
   "id": 1,
@@ -42,13 +42,13 @@ GET http://localhost:3000/api/din-resurs/1Respons (200 OK):JSON{
   "typ": "bil"
 }
 
-###Om ID inte finns
+### Om ID inte finns
 
 Respons (404 Not Found):JSON{
   "fel": "Bilen hittades inte"
 }
 ----------------------------------------------------------------------------
-💻 ##Tech StackRuntime: 
+## 💻 Tech StackRuntime: 
 
 *Node.js
 *Framework: Express.js
