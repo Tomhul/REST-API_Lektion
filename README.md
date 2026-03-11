@@ -14,12 +14,14 @@ Ett enkelt och tydligt Node.js API byggt med Express för att hantera en bilsaml
    git clone [https://github.com/DITT-ANVANDARNAMN/DITT-REPO-NAMN.git](https://github.com/DITT-ANVANDARNAMN/DITT-REPO-NAMN.git)
 -------------------------------------------------------------------------------------
 2.Installera beroenden:
-*Bash
-*npm install
+
+* Bash
+* npm install
 -------------------------------------------------------------------------------------
 3.Starta servern (med nodemon):
+
 Bash
-*npm run dev
+* npm run dev
 
 ------------------------------------------------------------------------------------
 ##📍API Endpoints
@@ -50,8 +52,8 @@ Respons (404 Not Found):JSON{
 ----------------------------------------------------------------------------
 ## 💻 Tech StackRuntime: 
 
-*Node.js
-*Framework: Express.js
-*Verktyg: Nodemon
+* Node.js
+* Framework: Express.js
+* Verktyg: Nodemon
 
 -----------------------------------------------------------------------------
