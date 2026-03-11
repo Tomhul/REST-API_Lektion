@@ -33,19 +33,25 @@ Bash
 
 -----------------------------------------------------------------------------------
 🧪 ##Exempelanrop
-Hämta bil med ID 1
+
+###Hämta bil med ID 1
+
 GET http://localhost:3000/api/din-resurs/1Respons (200 OK):JSON{
   "id": 1,
   "name": "Volvo",
   "typ": "bil"
 }
-##Om ID inte finns
+
+###Om ID inte finns
+
 Respons (404 Not Found):JSON{
   "fel": "Bilen hittades inte"
 }
 ----------------------------------------------------------------------------
 💻 ##Tech StackRuntime: 
+
 *Node.js
 *Framework: Express.js
 *Verktyg: Nodemon
+
 -----------------------------------------------------------------------------
